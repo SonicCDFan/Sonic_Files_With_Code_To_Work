@@ -16,7 +16,7 @@ BLACK = (0, 0, 0)
 
 # Set up the display
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Sonic the Hedgehog")
+pygame.display.set_caption("Sonic Simulator")
 
 # Load Sonic logo image
 logo_image = pygame.image.load("sonic_logo.png")
@@ -24,7 +24,7 @@ logo_rect = logo_image.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 3))
 
 # Create title card
 font = pygame.font.Font(None, 74)
-title_card = font.render("Sonic the Hedgehog", True, BLUE)
+title_card = font.render("Sonic Simulator", True, BLUE)
 title_card_rect = title_card.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))
 
 # Create start game text
