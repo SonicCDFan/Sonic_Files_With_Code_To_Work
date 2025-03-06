@@ -1,6 +1,6 @@
 def gpio_spinleft():
     GPIO.output(yellow, GPIO.LOW)
-    GPIO.output(green, GPIO.HIGH)
+   GPIO.output(green, GPIO.HIGH)
     GPIO.output(blue, GPIO.LOW)
     GPIO.output(white, GPIO.HIGH)
     print('左方')
